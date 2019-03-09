@@ -1,4 +1,4 @@
-Teme za drugo predavanje su (1) Konstruktori i (2) Kontrola pristupa i enkapsulacija
+Teme za drugo predavanje su (1) Konstruktori i (2) Kontrola pristupa i enkapsulacija  
 Kao mala priprema, pregled teza:
 ## KONSTRUKTORI
 * Konstruktori i inicijalizacija objekata   
