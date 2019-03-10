@@ -34,5 +34,8 @@ namespace Dan2
                 ", na radnom mestu sa koeficijentom " +
                 koefRadnogMesta + " ima platu od " + plata);
         }
+
+        // auto-implemented property
+        public string Tepanje { get; set; }
     }
 }

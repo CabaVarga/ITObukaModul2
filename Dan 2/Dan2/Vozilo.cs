@@ -76,5 +76,16 @@ namespace Dan2
                 return 1;
             }
         }
+
+        // setter smo postavili na private
+        public string Marka { get => marka; private set => marka = value; }
+        public string Tip { get => tip; private set => tip = value; }
+        public int Godiste { get => godiste; private set => godiste = value; }
+        public string Registracija { get => registracija; private set => registracija = value; }
+        public int MaksBrzina { get => maksBrzina; set => maksBrzina = value; }
+        public int Snaga { get => snaga; set => snaga = value; }
+
+        public double VrednostVozila { get => maksBrzina * snaga / (2017 - (double)godiste);  }
+        
     }
 }

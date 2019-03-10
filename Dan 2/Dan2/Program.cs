@@ -57,7 +57,7 @@ namespace Dan2
             Zaposleni z3 = new Zaposleni("Tomica", "Zdravkovic", 23.5);
 
             int dani = 31;
-
+                        
             z1.RacunajPlatu(dani);
             z2.RacunajPlatu(dani);
             z3.RacunajPlatu(dani);
