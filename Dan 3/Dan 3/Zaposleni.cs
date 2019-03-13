@@ -23,4 +23,10 @@ namespace Dan_3
             Console.WriteLine("Plata iznosi: {0:C2}", this.plata);   
         }
     }
+
+    class ZaposleniPrivremeni : Zaposleni
+    {
+        public ZaposleniPrivremeni() : base("Caba", "varga", 40, 32) { }
+
+    }
 }
