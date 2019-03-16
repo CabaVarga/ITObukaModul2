@@ -40,6 +40,7 @@ namespace Zad3
 
         public static void TestGeometrija()
         {
+            // TODO Moguca optimizacija: Kvadrat podklasa Pravougaonika i Kocka podklasa Kvadra
             kvadrat kvadrat = new kvadrat(10);
             krug krug = new krug(5);
             pravougaonik pravougaonik = new pravougaonik(10, 5);

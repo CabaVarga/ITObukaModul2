@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zad3.Disk" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAACAAIAAgAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Disk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.Folder" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAABAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Folder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.Fajl" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Fajl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.Slika" Collapsed="true">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAAAAAAQAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Slika.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.TekstualniFajl" Collapsed="true">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TekstualniFajl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.Video" Collapsed="true">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Video.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

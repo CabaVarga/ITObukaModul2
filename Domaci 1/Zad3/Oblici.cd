@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zad3.GeometrijskiObjekat" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeometrijskiObjekat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.Objekat2D" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAgAAAAIAQAAAAEAQAAAAEAAA=</HashCode>
+      <FileName>Objekat2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.Objekat3D" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAIAwACAAIAQgAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Objekat3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.pravougaonik" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAgAAEAAAQBAAAAAQAAAAAAAA=</HashCode>
+      <FileName>pravougaonik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.kvadrat" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQgAAAAAAgAAAAAAQAAAAAAQAAABAAAA=</HashCode>
+      <FileName>kvadrat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.krug" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAgAAAAAAgAAAAAAQAAAAAAQAAAAAAAQ=</HashCode>
+      <FileName>krug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.kvadar" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAAAgAAEAAAQhAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kvadar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.lopta" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAgAAAAAAgAAAAAAQgAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>lopta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad3.kocka" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQgBAAAAAgAAAAAAQgAAAAAAAAABAAAA=</HashCode>
+      <FileName>kocka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
