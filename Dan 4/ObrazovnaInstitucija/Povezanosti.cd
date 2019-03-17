@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ObrazovnaInstitucija.Institucija">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAARAAQAAAAAAAAAAEAAAIACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Institucija.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ucionice" />
+      <Field Name="zaposleni" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ObrazovnaInstitucija.Ucionica">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAAAAAAgAAAAEAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ucionica.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="racunari" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ObrazovnaInstitucija.Zaposleni">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zaposleni.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrazovnaInstitucija.Osoba">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEQAAABEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Osoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrazovnaInstitucija.Racunar">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAAAICAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Racunar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

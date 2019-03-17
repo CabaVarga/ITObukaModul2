@@ -21,9 +21,30 @@
       <FileName>Vozilo.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Field Name="vlasnik" />
       <Field Name="pogonskiAgregat" />
+      <Field Name="vlasnik" />
     </ShowAsAssociation>
+  </Class>
+  <Class Name="VoziloMotor.Automobil" Collapsed="true">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Automobil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoziloMotor.Kamion" Collapsed="true">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kamion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoziloMotor.Motocikl" Collapsed="true">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Motocikl.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
