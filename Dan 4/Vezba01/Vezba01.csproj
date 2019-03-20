@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F96BABC-D91F-4A4C-AE0E-A89C7F41981F}</ProjectGuid>
+    <ProjectGuid>{EE953BE4-A45B-457E-B46B-DF2A65AFF21B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Asistenti</RootNamespace>
-    <AssemblyName>Asistenti</AssemblyName>
+    <RootNamespace>Vezba01</RootNamespace>
+    <AssemblyName>Vezba01</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,16 +45,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppData.cs" />
     <Compile Include="Asistent.cs" />
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInstitucija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInstitucija.Designer.cs">
+      <DependentUpon>frmInstitucija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PodaciInstitucije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PodaciInstitucije.Designer.cs">
+      <DependentUpon>PodaciInstitucije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Institucija.cs" />
     <Compile Include="Nastavnik.cs" />
     <Compile Include="NenastavniRadnik.cs" />
+    <Compile Include="Osoba.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Racunar.cs" />
+    <Compile Include="Ucionica.cs" />
     <Compile Include="Zaposleni.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Povezanosti.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MeniSistem\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInstitucija.resx">
+      <DependentUpon>frmInstitucija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PodaciInstitucije.resx">
+      <DependentUpon>PodaciInstitucije.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

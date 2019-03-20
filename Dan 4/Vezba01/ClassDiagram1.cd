@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vezba01.Osoba">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAQAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Osoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vezba01.Zaposleni">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zaposleni.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vezba01.Institucija">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAARAQAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Institucija.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Kadrovi" />
+      <Property Name="Ucionice" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Vezba01.Ucionica">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAA=</HashCode>
+      <FileName>Ucionica.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Racunari" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Vezba01.NenastavniRadnik">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAgAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>NenastavniRadnik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vezba01.Asistent">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAACAIAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Asistent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vezba01.Nastavnik">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAIAAAAAAAAAAAAAAAAQAQAAAAAA=</HashCode>
+      <FileName>Nastavnik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vezba01.Racunar">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAAAAAA=</HashCode>
+      <FileName>Racunar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

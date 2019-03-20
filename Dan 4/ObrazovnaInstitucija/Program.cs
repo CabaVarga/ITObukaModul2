@@ -14,9 +14,9 @@ namespace ObrazovnaInstitucija
 
         static void Test()
         {
-            Institucija skolaRacunara = new Institucija();
-            Institucija narodniUniverzitet = new Institucija();
-            Institucija srednjaSkola = new Institucija();
+            Institucija skolaRacunara = new Institucija("Skola racunara");
+            Institucija narodniUniverzitet = new Institucija("Narodni univerzitet");
+            Institucija srednjaSkola = new Institucija("Srednja skola");
         }
     }
 }
