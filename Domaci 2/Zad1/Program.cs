@@ -428,85 +428,6 @@ namespace Zad1
         }
         #endregion
 
-        static void OrkestarSvira()
-        {
-            // https://en.wikipedia.org/wiki/Orchestra#Modern_orchestra
-            // Oboa i Klarinet su navedeni na spisku ali nismo (za sada) napravili te klase
-
-            // Deklarisem instrumente
-
-            // Dodajem svojstva iz IFunkcijaUOrkestru
-
-            // Deklarisem niz i dodajem clanove
-
-            //foreach (var instr in Orkestar)
-            //{
-            //    Osobine(instr);
-            //}
-        }
-
-        /// <summary>
-        /// Sastavljam (mali) simfonijski orkestar.
-        /// </summary>
-        static Instrument[] SimfonijskiOrkestar()
-        {
-            // OSTAJE ZASAD KAO PRIMER KAKO NE TREBA
-            // Cim sam napisao metodu za ucitavanje iz txt fajla
-            // Postalo je neuporedivo lakse kreirati orkestar
-            // Deklarisem instrumente
-
-            // DUVACKI INSTRUMENTI
-            // Drveni duvacki instrumenti
-            Instrument flauta1 = new Flauta();
-            Instrument flauta2 = new Flauta();
-            Instrument saksofon = new Saksofon();
-            // Limeni duvacki instrumenti
-            Instrument horna1 = new Horna();
-            Instrument horna2 = new Horna();
-            Instrument truba1 = new Truba();
-            Instrument truba2 = new Truba();
-            Instrument trombon1 = new Trombon();
-            Instrument trombon2 = new Trombon();
-            Instrument tuba = new Tuba();
-
-            // UDARACKI INSTRUMENTI
-            Instrument timpan = new Timpani();
-            Instrument bubanj1 = new Bubanj();
-            Instrument bubanj2 = new Bubanj();
-            Instrument ksilofon = new Ksilofon();
-
-            // ZICANI INSTRUMENTI
-            Instrument klavir = new Klavir();
-            Instrument harfa = new Harfa();
-            Instrument violina1 = new Violina();
-            Instrument violina2 = new Violina();
-            Instrument violina3 = new Violina();
-            Instrument violina4 = new Violina();
-            Instrument viola1 = new Viola();
-            Instrument viola2 = new Viola();
-            Instrument violoncelo1 = new Violoncelo();
-            Instrument violoncelo2 = new Violoncelo();
-            Instrument kontrabas = new Kontrabas();
-
-            // Dodajem svojstva iz IFunkcijaUOrkestru
-
-            // Deklarisem niz i dodajem clanove
-
-            return null;
-        }
-
-        static void TestA()
-        {
-            // TODO izbrisati
-            Instrument bubanj = new Bubanj();
-            // Koriscenjem virtuelne metode koja je implementirana u svim klasama
-            bubanj.Ispisi();
-
-            // Koriscenjem pomocne metode
-            Osobine(bubanj);
-            
-        }
-
         #region Serijalizacija, tacnije snimanje u i iz TXT
         /// <summary>
         /// Snima orkestar u txt fajl. Prvi red sadrzi ime orkestra. Naredni redovi sadrze ime i funkciju svakog instrumenta.
@@ -740,6 +661,85 @@ namespace Zad1
         }
         #endregion
 
+        static void OrkestarSvira()
+        {
+            // https://en.wikipedia.org/wiki/Orchestra#Modern_orchestra
+            // Oboa i Klarinet su navedeni na spisku ali nismo (za sada) napravili te klase
+
+            // Deklarisem instrumente
+
+            // Dodajem svojstva iz IFunkcijaUOrkestru
+
+            // Deklarisem niz i dodajem clanove
+
+            //foreach (var instr in Orkestar)
+            //{
+            //    Osobine(instr);
+            //}
+        }
+
+        /// <summary>
+        /// Sastavljam (mali) simfonijski orkestar.
+        /// </summary>
+        static Instrument[] SimfonijskiOrkestar()
+        {
+            // OSTAJE ZASAD KAO PRIMER KAKO NE TREBA
+            // Cim sam napisao metodu za ucitavanje iz txt fajla
+            // Postalo je neuporedivo lakse kreirati orkestar
+            // Deklarisem instrumente
+
+            // DUVACKI INSTRUMENTI
+            // Drveni duvacki instrumenti
+            Instrument flauta1 = new Flauta();
+            Instrument flauta2 = new Flauta();
+            Instrument saksofon = new Saksofon();
+            // Limeni duvacki instrumenti
+            Instrument horna1 = new Horna();
+            Instrument horna2 = new Horna();
+            Instrument truba1 = new Truba();
+            Instrument truba2 = new Truba();
+            Instrument trombon1 = new Trombon();
+            Instrument trombon2 = new Trombon();
+            Instrument tuba = new Tuba();
+
+            // UDARACKI INSTRUMENTI
+            Instrument timpan = new Timpani();
+            Instrument bubanj1 = new Bubanj();
+            Instrument bubanj2 = new Bubanj();
+            Instrument ksilofon = new Ksilofon();
+
+            // ZICANI INSTRUMENTI
+            Instrument klavir = new Klavir();
+            Instrument harfa = new Harfa();
+            Instrument violina1 = new Violina();
+            Instrument violina2 = new Violina();
+            Instrument violina3 = new Violina();
+            Instrument violina4 = new Violina();
+            Instrument viola1 = new Viola();
+            Instrument viola2 = new Viola();
+            Instrument violoncelo1 = new Violoncelo();
+            Instrument violoncelo2 = new Violoncelo();
+            Instrument kontrabas = new Kontrabas();
+
+            // Dodajem svojstva iz IFunkcijaUOrkestru
+
+            // Deklarisem niz i dodajem clanove
+
+            return null;
+        }
+
+        static void TestA()
+        {
+            // TODO izbrisati
+            Instrument bubanj = new Bubanj();
+            // Koriscenjem virtuelne metode koja je implementirana u svim klasama
+            bubanj.Ispisi();
+
+            // Koriscenjem pomocne metode
+            Osobine(bubanj);
+            
+        }
+        
         /// <summary>
         ///  Ispisuje sve osobine instrumenta za proizvoljan instrument.
         /// </summary>

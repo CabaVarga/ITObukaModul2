@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F61A50CD-41F0-42C7-94BD-E6A7AD996C35}</ProjectGuid>
+    <ProjectGuid>{972B7657-5F60-4811-BEAB-40C3466E4AED}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Domaci_2</RootNamespace>
-    <AssemblyName>Domaci 2</AssemblyName>
+    <RootNamespace>Zad2</RootNamespace>
+    <AssemblyName>Zad2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Radnici\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
