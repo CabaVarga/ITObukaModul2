@@ -18,7 +18,7 @@ using System;
 namespace Zad1
 {
     [Serializable()]
-    abstract class Instrument
+    public abstract class Instrument
     {
         public static int brojac = 0;
         // TODO konstruktor bez argumenata

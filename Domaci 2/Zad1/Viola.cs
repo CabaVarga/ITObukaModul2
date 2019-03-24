@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Zad1
 {
     [Serializable()]
-    class Viola : ZicaniInstument, IFunkcijaUOrkestru
+    public class Viola : ZicaniInstument, IFunkcijaUOrkestru
     {
         public Viola()
         {

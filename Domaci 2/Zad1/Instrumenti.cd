@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zad1.Instrument">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQAIAAgCQQACAAAAAAABAAAEAAgAAAAAAAAAABA=</HashCode>
+      <FileName>Instrument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad1.DuvackiInstrument">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DuvackiInstrument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad1.ZicaniInstument">
+    <Position X="14.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>ZicaniInstument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad1.UdarackiInstrument">
+    <Position X="20.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>UdarackiInstrument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zad1.Flauta">
+    <Position X="1" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Flauta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Horna">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Horna.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Kontrabas">
+    <Position X="12.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Kontrabas.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Ksilofon">
+    <Position X="20" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Ksilofon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Saksofon">
+    <Position X="4.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Saksofon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Timpani">
+    <Position X="21.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Timpani.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Trombon">
+    <Position X="6.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Trombon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Truba">
+    <Position X="8" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Truba.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Tuba">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Tuba.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Viola">
+    <Position X="14" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Viola.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Violina">
+    <Position X="15.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Violina.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zad1.Violoncelo">
+    <Position X="17.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAQQAAAAAAAAABAAAEAAgAQAAAAAAgCAA=</HashCode>
+      <FileName>Violoncelo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Zad1.IFunkcijaUOrkestru">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAgCAA=</HashCode>
+      <FileName>IFunkcijaUOrkestru.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

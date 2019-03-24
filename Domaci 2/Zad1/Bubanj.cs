@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Zad1
 {
     [Serializable()]
-    class Bubanj : UdarackiInstrument, IFunkcijaUOrkestru
+    public class Bubanj : UdarackiInstrument, IFunkcijaUOrkestru
     {
         public Bubanj()
         {

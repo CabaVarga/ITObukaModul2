@@ -72,6 +72,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Instrumenti.cd" />
+    <None Include="InstrumentiPregled.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

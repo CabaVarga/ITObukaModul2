@@ -8,6 +8,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization;
 using System.Web.Script.Serialization;
 using Newtonsoft.Json;
+using System.Xml.Serialization;
 
 namespace Zad1
 {
@@ -19,9 +20,10 @@ namespace Zad1
         {
             // TestFunkcionalnosti();
 
-            // TestSerijalizacijeJSON();               // OK! RADI!
-            // TestSerijalizacijeNewtonsoftJSON();     // OK! RADI!
-            TestSerijalizacijeBIN();
+            // TestSerijalizacijeJSON();                // OK! RADI!
+            // TestSerijalizacijeNewtonsoftJSON();      // OK! RADI!
+            // TestSerijalizacijeBIN();                 // OK! RADI!
+            // TestSerijalizacijeXML();                 // OK! RADI! - morao sam sve klase da ucinim public
 
             Console.ReadKey();
         }
@@ -174,6 +176,24 @@ namespace Zad1
             Instrument[] kopija = UcitajOrkestarBIN(pathBIN);
             StimajSvirajPredstavi(kopija, true);
         }
+
+        static void TestSerijalizacijeXML()
+        {
+            // TODO try-catch klauzule
+            DirectoryInfo di = new DirectoryInfo(@"..\..\Orkestri");
+            string pathTXT = Path.Combine(di.FullName, "GudackiKvartet.txt");
+            string pathXML = Path.Combine(di.FullName, "GudackiKvartet.xml");
+
+            // TEST SNIMANJA
+            Instrument[] gudacki = UcitajOrkestarTekst(pathTXT);
+            SnimiOrkestarXML(pathXML, gudacki);
+
+            // TEST UCITAVANJA
+            Instrument[] kopija = UcitajOrkestarXML(pathXML);
+            StimajSvirajPredstavi(kopija, true);
+
+        }
+
         #endregion
 
         #region Serijalizacija u i iz JSON, koriscenjem ugradjenih funkcija
@@ -304,6 +324,110 @@ namespace Zad1
         }
         #endregion
 
+        #region Serijalizacija u i iz XML
+        static void SnimiOrkestarXML(string putanja, Instrument[] orkestar)
+        {
+            FileStream fs = new FileStream(putanja, FileMode.Create);
+
+            // odavde:
+            // https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=netframework-4.7.2
+
+            // Dobijam poruku
+            // is inaccessible due to its protection level. Only public types can be processed
+            // probacu da sve klase deklarisem sa public
+            // naredna greska:
+            // Use the XmlInclude or SoapInclude attribute to specify types that are not known statically
+            Type[] podklase = new Type[]
+            {
+                typeof(DuvackiInstrument),
+                typeof(UdarackiInstrument),
+                typeof(ZicaniInstument),
+                typeof(Bubanj),
+                typeof(Flauta),
+                typeof(Harfa),
+                typeof(Horna),
+                typeof(Klavir),
+                typeof(Kontrabas),
+                typeof(Ksilofon),
+                typeof(Saksofon),
+                typeof(Timpani),
+                typeof(Trombon),
+                typeof(Truba),
+                typeof(Tuba),
+                typeof(Viola),
+                typeof(Violina),
+                typeof(Violoncelo),
+            };
+
+            XmlSerializer serializer = new XmlSerializer(typeof(Instrument[]), podklase);
+            try
+            {
+                serializer.Serialize(fs, orkestar);
+            }
+            catch (SerializationException e)
+            {
+                Console.WriteLine("Failed to serialize. Reason: " + e.Message);
+                throw;
+            }
+            finally
+            {
+                fs.Close();
+            }
+        }
+
+        static Instrument[] UcitajOrkestarXML(string putanja)
+        {
+            // TODO Uradi za niz instrumenata
+            // Declare the reference.
+            Instrument[] orkestar = null;
+
+            // Iz klase snimanje
+            Type[] podklase = new Type[]
+            {
+                typeof(DuvackiInstrument),
+                typeof(UdarackiInstrument),
+                typeof(ZicaniInstument),
+                typeof(Bubanj),
+                typeof(Flauta),
+                typeof(Harfa),
+                typeof(Horna),
+                typeof(Klavir),
+                typeof(Kontrabas),
+                typeof(Ksilofon),
+                typeof(Saksofon),
+                typeof(Timpani),
+                typeof(Trombon),
+                typeof(Truba),
+                typeof(Tuba),
+                typeof(Viola),
+                typeof(Violina),
+                typeof(Violoncelo),
+            };
+
+            // Open the file containing the data that you want to deserialize.
+            FileStream fs = new FileStream(putanja, FileMode.Open);
+            try
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(Instrument[]), podklase);
+
+                // Deserijalizuj bubanj iz fajla 
+                // i dodeli referencu lokalnoj promenljivoj.
+                orkestar = (Instrument[])serializer.Deserialize(fs);
+            }
+            catch (SerializationException e)
+            {
+                Console.WriteLine("Failed to deserialize. Reason: " + e.Message);
+                throw;
+            }
+            finally
+            {
+                fs.Close();
+            }
+
+            return orkestar;
+        }
+        #endregion
+
         static void OrkestarSvira()
         {
             // https://en.wikipedia.org/wiki/Orchestra#Modern_orchestra
@@ -326,6 +450,9 @@ namespace Zad1
         /// </summary>
         static Instrument[] SimfonijskiOrkestar()
         {
+            // OSTAJE ZASAD KAO PRIMER KAKO NE TREBA
+            // Cim sam napisao metodu za ucitavanje iz txt fajla
+            // Postalo je neuporedivo lakse kreirati orkestar
             // Deklarisem instrumente
 
             // DUVACKI INSTRUMENTI
