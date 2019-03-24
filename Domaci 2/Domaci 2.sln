@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domaci 2", "Domaci 2\Domaci 2.csproj", "{F61A50CD-41F0-42C7-94BD-E6A7AD996C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zad1", "Zad1\Zad1.csproj", "{B40B8B58-3301-46BD-A279-FDF1B920C3C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F61A50CD-41F0-42C7-94BD-E6A7AD996C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61A50CD-41F0-42C7-94BD-E6A7AD996C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61A50CD-41F0-42C7-94BD-E6A7AD996C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61A50CD-41F0-42C7-94BD-E6A7AD996C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40B8B58-3301-46BD-A279-FDF1B920C3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40B8B58-3301-46BD-A279-FDF1B920C3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40B8B58-3301-46BD-A279-FDF1B920C3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40B8B58-3301-46BD-A279-FDF1B920C3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCE95E99-0E8C-4DC8-82A7-5722ED709670}
+	EndGlobalSection
+EndGlobal
