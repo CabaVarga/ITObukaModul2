@@ -20,8 +20,16 @@ namespace Zad1
     [Serializable()]
     abstract class Instrument
     {
+        public static int brojac = 0;
         // TODO konstruktor bez argumenata
-        protected Instrument() { }
+        protected Instrument() {
+            brojac++;
+        }
+
+        ~Instrument()
+        {
+            brojac--;
+        }
         
         // TODO metod ispisi koji ispisuje sve osobine instrumenta
         public virtual void Ispisi() {

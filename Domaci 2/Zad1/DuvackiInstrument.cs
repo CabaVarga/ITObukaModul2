@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zad1
 {
+    [Serializable()]
     abstract class DuvackiInstrument : Instrument
     {
         public override string TipInstrumenta => "Duvacki instrument";
