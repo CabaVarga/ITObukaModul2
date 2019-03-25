@@ -1,0 +1,23 @@
+Simfonijski orkestar RTS
+Flauta,Piccolo flauta
+Flauta,Alto flauta
+Saksofon,Duvacka sekcija
+Horna,Limena sekcija
+Truba,Limena sekcija
+Trombon,Limena sekcija
+Trombon,Bas trombon
+Tuba,Limena sekcija
+Timpani,Udaracka sekcija
+Bubanj,Dobos
+Bubanj,Tenor bubanj
+Bubanj,Bas bubanj
+Ksilofon,Udaracka sekcija
+Klavir,Klavijaturisti
+Harfa,Zicana sekcija
+Violina,Koncertmajstor
+Violina,Prva violina
+Violina,Druga violina
+Violina,Druga violina
+Viola,Zicana sekcija
+Violoncelo,Zicana sekcija
+Kontrabas,Zicana sekcija

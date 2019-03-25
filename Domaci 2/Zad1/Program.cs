@@ -21,7 +21,7 @@ namespace Zad1
             // TestFunkcionalnosti();
 
             // TestSerijalizacijeJSON();                // OK! RADI!
-            // TestSerijalizacijeNewtonsoftJSON();      // OK! RADI!
+            TestSerijalizacijeNewtonsoftJSON();      // OK! RADI!
             // TestSerijalizacijeBIN();                 // OK! RADI!
             // TestSerijalizacijeXML();                 // OK! RADI! - morao sam sve klase da ucinim public
 
@@ -149,8 +149,8 @@ namespace Zad1
         {
             // TODO try-catch klauzule
             DirectoryInfo di = new DirectoryInfo(@"..\..\Orkestri");
-            string pathTXT = Path.Combine(di.FullName, "GudackiKvartet.txt");
-            string pathJSON = Path.Combine(di.FullName, "GudackiKvartet.JSON");
+            string pathTXT = Path.Combine(di.FullName, "DzezBend.txt");
+            string pathJSON = Path.Combine(di.FullName, "DzezBend.JSON");
 
             // TEST SNIMANJA
             Instrument[] gudacki = UcitajOrkestarTekst(pathTXT);
@@ -260,9 +260,6 @@ namespace Zad1
             {
                 sb.AppendLine(line);
             }
-            Console.WriteLine(sb.ToString());
-
-            // AHA! GUBI SE POLIMORFIZAM, POKUSAVA PRAVITI INSTRUMENTE
 
             Instrument[] deserializedResult = JsonConvert.DeserializeObject<Instrument[]>(sb.ToString(), jss);
             return deserializedResult;

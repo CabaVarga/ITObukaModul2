@@ -1,0 +1,13 @@
+Big Bend RTS
+Bubanj,Ritam sekcija
+Klavir,Ritam sekcija
+Kontrabas,Ritam sekcija
+Saksofon,Alto saksofon
+Saksofon,Tenor saksofon
+Saksofon,Bariton saksofon
+Trombon,Tenor trombon
+Trombon,Bas trombon
+Truba,Limena sekcija
+Tuba,Limena sekcija
+Violina,Zicana sekcija
+Violoncelo,Zicana sekcija

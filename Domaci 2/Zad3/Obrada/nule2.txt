@@ -1,0 +1,7 @@
+Ne postoji realna nula funkcije
+Prva nula funkcije:
+	Realni deo: -0,7500
+	Imaginarni deo: -1,0253i
+Druga nula funkcije:
+	Realni deo: -0,7500
+	Imaginarni deo: 1,0253i
