@@ -21,9 +21,9 @@ namespace Zad1
             // TestFunkcionalnosti();
 
             // TestSerijalizacijeJSON();                // OK! RADI!
-            TestSerijalizacijeNewtonsoftJSON();      // OK! RADI!
+            // TestSerijalizacijeNewtonsoftJSON();      // OK! RADI!
             // TestSerijalizacijeBIN();                 // OK! RADI!
-            // TestSerijalizacijeXML();                 // OK! RADI! - morao sam sve klase da ucinim public
+            TestSerijalizacijeXML();                 // OK! RADI! - morao sam sve klase da ucinim public
 
             Console.ReadKey();
         }
