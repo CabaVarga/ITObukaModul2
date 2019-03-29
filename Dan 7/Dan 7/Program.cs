@@ -10,6 +10,7 @@ namespace Dan_7
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
